@@ -53,7 +53,7 @@ function Login({ navigation }) {
               setElementVisible1(true)
             }else{
               //const {data} = await axios.get(`http:// 192.168.43.129:5000/obtenerUsuario/${code}/${pssw}`);
-              console.log(ip);
+              //console.log(ip);
               const {data} = await axios.get(`http://${ip}/obtenerUsuario/${code}/${pssw}`);
               //setUserName(data.nombre);
               setTextP("");

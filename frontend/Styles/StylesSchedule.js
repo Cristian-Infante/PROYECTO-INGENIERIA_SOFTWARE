@@ -104,10 +104,11 @@ export default StyleSheet.create({
         textAlign: "center",
         color: "#000000",
         fontWeight: "bold",
+        marginBottom: 15,
     },
     body: {
         backgroundColor: "#ffffff77",
-        top: Dimensions.get("window").height * 0.1,
+        top: Dimensions.get("window").height * 0.30,
         width: Dimensions.get("window").width * 0.95,
         alignItems: "center",
         borderRadius: 15,
@@ -123,12 +124,7 @@ export default StyleSheet.create({
     },
     horariosText: {
       fontSize: 20,
-      marginBottom: 10,
-      textAlign: "center",
-    },
-    horariosText1: {
-      fontSize: 20,
-      marginBottom: 10,
+      marginBottom: 15,
       textAlign: "center",
     },
     horariosSelect: {
@@ -145,6 +141,19 @@ export default StyleSheet.create({
       justifyContent: "center",
       alignItems: "center",
       padding: 5,
+      borderRadius: 10,
+      margin: 5,
+    },
+    horariosSelected: {
+      fontSize: 15,
+    },
+    horariosButton: {
+      backgroundColor: "#ffffff77",
+      width: Dimensions.get("window").width * 0.20,
+      borderWidth: 0, 
+      justifyContent: "center",
+      alignItems: "center",
+      padding: 10,
       borderRadius: 10,
       margin: 5,
     },
