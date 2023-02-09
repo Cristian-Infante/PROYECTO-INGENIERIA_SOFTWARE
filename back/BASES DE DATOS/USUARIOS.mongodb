@@ -1,0 +1,22 @@
+//USUARIOS
+[{
+    "_id": 160004518,
+    "contraseña": 123, 
+    "nombre": "Cristian", 
+    "apellido": "Infante", 
+    "rol": "ADM"
+},
+{
+    "_id": 160004523,
+    "contraseña": 123, 
+    "nombre": "Emmanuel", 
+    "apellido": "Martinez", 
+    "rol": "EST"
+},
+{
+    "_id": 160004529,
+    "contraseña": 123, 
+    "nombre": "Luis", 
+    "apellido": "Perez", 
+    "rol": "EST"
+}]
