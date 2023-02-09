@@ -1,0 +1,80 @@
+import { Dimensions, StyleSheet, TextInput } from "react-native";
+
+export default StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: "#fff",
+      alignItems: "center",
+      justifyContent: "center",
+      resizeMode: "cover",
+    },
+    container1: {
+      alignItems: "center",
+      justifyContent: "center",
+    },
+    image: {
+      flex: 1,
+      justifyContent: "center",
+      resizeMode: "cover",
+      padding: 25,
+    },
+    card: {
+      backgroundColor: "#ffffff77",
+      width: Dimensions.get("window").width * 0.90,
+      alignItems: "center",
+      justifyContent: "center",
+      paddingVertical: 50,
+      paddingHorizontal: 20,
+      borderRadius: 15,
+    },
+    title: {
+      fontSize: 60,
+      textAlign: "center",
+      marginBottom: 20,
+      color: "#DC251C",
+      fontWeight: "bold",
+    },
+    logo: {
+      marginBottom: 20,
+      width: 200,
+      height: 150,
+    },
+    intputLogin:{
+      backgroundColor: "#ffffff77",
+      fontSize: 20,
+      height: 50,
+      width: 250,
+      padding: 10,
+      margin: 10,
+      textAlign: "center",
+      borderRadius: 10,
+    },
+    buttonLogin:{
+      backgroundColor: "#ffffff77",
+      fontSize: 20,
+      padding: 20,
+      width: 250,
+      textAlign: "center",
+      marginTop: 40,
+      borderRadius: 10,
+      color: "#DC251C",
+    },
+    alert:{
+      backgroundColor: "#ff000040",
+      width: 250,
+      borderRadius: 5,
+      color: "#000000",
+      textAlign: "center",
+      padding: 5,
+      fontSize: 15,
+    },
+    errorLogin:{
+      backgroundColor: "#ff000040",
+      width: 250,
+      borderRadius: 5,
+      color: "#000000",
+      textAlign: "center",
+      padding: 5,
+      fontSize: 15,
+    }
+  });
