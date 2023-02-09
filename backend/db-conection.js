@@ -5,9 +5,9 @@ const conectar =         'mongodb://127.0.0.1:27017/UNIRUTAS';
 mongoose.set("strictQuery", false);
 mongoose.connect(conectar)
   .then(() => {
-    console.log("Conectado con exito a base de datos\n");
+    console.log("CONNECTED DATABASE \n");
   })
   .catch((error) => {
-    console.log("Error al conectar a la base de datos \n", error)
+    console.log("ERROR CONNECTING DATABASE \n", error)
   })
 export default mongoose;
